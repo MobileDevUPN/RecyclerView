@@ -27,8 +27,7 @@ public class MainActivity extends AppCompatActivity {
 
         rv=findViewById(R.id.rv_mhs);
         ArrayList<MhsModel> item=new ArrayList<MhsModel>();
-        MhsModel itmod=null;
-//        itemHelper = new ItemHelper(this);
+        MhsModel itmod;
         MhsAdapter mhsAdapter = new MhsAdapter(this);
         for (int i = 0; i <data.length; i++) {
             itmod = new MhsModel();
@@ -43,9 +42,6 @@ public class MainActivity extends AppCompatActivity {
 
         rv.setAdapter(mhsAdapter);
         rv.addItemDecoration(new DividerItemDecoration(this, DividerItemDecoration.VERTICAL));
-//        itemHelper.open();
-//        item = itemHelper.query();
-//        itemHelper.close();
         mhsAdapter.addItem(item);
     }
 }
