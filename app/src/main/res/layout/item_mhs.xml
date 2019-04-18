@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/mhs_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Moch. Nor Kholis"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/mhs_npm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="1534010006"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        />
+
+</LinearLayout>
